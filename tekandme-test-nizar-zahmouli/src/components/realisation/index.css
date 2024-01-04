@@ -1,0 +1,78 @@
+.realisation {
+  display: flex;
+  flex-direction: column;
+  width: 1120px;
+  height: 1984px;
+  margin-left: 108px;
+}
+.card1 {
+  justify-content: flex-start;
+}
+.card2 {
+  margin-top: 120px;
+  margin-left: 736px;
+}
+.card3 {
+  margin-top: 120px;
+  margin-left: 420px;
+}
+.cards {
+  width: 392px;
+  height: 528px;
+  padding: 8px;
+  border: none;
+}
+.img-top{
+  width: 376px;
+  height: 320px;
+}
+.cards-title {
+  color: rgba(23, 28, 36, 1);
+  font-family: "Orbitron" sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 344px;
+  height: 32px;
+  text-transform: uppercase;
+}
+.cards-text {
+  color: rgba(43, 43, 43, 0.7);
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 344px;
+  height: 48px;
+  overflow: hidden;
+}
+.card-button {
+  margin-left: 60%;
+  width: 129px;
+  height: 40px;
+  padding: 8px;
+  border: 1px, 1px, 3px, 1px;
+  border-width: 1px, 1px, 3px, 1px;
+  border-style: solid;
+  border-color: rgba(43, 43, 43, 0.12);
+  background: linear-gradient(0deg, #fcfcfc, #fcfcfc),
+    linear-gradient(0deg, rgba(43, 43, 43, 0.12), rgba(43, 43, 43, 0.12));
+}
+.card-link {
+  color: rgba(43, 43, 43, 1);
+  font-family: "Orbitron" sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 113px;
+  height: 24px;
+  border: none;
+  background-color: transparent;
+  text-transform: uppercase;
+}

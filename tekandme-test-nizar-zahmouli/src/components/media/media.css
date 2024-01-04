@@ -1,0 +1,131 @@
+.section-video {
+  width: 1052.36px;
+  height: 913.92px;
+  margin-top: 120px;
+}
+.section-video h3 {
+  color: rgba(43, 43, 43, 1);
+  font-family: "Orbitron" sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 808px;
+  height: 112px;
+  margin-left: 316px;
+  text-transform: uppercase;
+}
+.section-video p {
+  width: 338px;
+  height: 32px;
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  color: rgba(43, 43, 43, 0.7);
+  margin-left: 458px;
+  border: 1px, 1px, 3px, 1px;
+}
+.media-btn {
+  width: 162px;
+  height: 40px;
+  padding: 8px, 12px, 8px, 12px;
+  border: 1px, 1px, 3px, 1px;
+  background: linear-gradient(
+      0deg,
+      rgba(252, 252, 252, 0.12),
+      rgba(252, 252, 252, 0.12)
+    ),
+    linear-gradient(0deg, #2b2b2b, #2b2b2b);
+  border-width: 1px, 1px, 3px, 1px;
+  border-style: solid;
+  border-color: rgba(252, 252, 252, 0.12);
+  font-family: "Orbitron" sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: rgba(252, 252, 252, 1);
+  text-transform: uppercase;
+}
+
+.media {
+  background: linear-gradient(
+      to bottom,
+      rgba(43, 43, 43, 0.5),
+      rgba(43, 43, 43, 0.5)
+    ),
+    url("../../assets/images/image\ \(25\).png");
+  background-size: cover;
+  color: #2b2b2b80;
+  border: 2px solid #fcfcfc;
+  width: 856px;
+  height: 481.92px;
+  margin-top: 80px;
+  margin-left: 292px;
+  border: 2px;
+  z-index: 1;
+  position: relative;
+}
+#media-img {
+  position: absolute;
+  width: 181.8px;
+  height: 282.22px;
+  top: 3551px;
+  margin-left: 1095.58px;
+  rotate: 39.26deg;
+  z-index: 0;
+}
+.youtube {
+  width: 314px;
+  height: 48px;
+  margin-top: 100px;
+  margin-left: 563px;
+  border: 1px, 1px, 3px, 1px;
+  background: rgba(43, 43, 43, 0.12);
+  border-width: 1px, 1px, 3px, 1px;
+  border-style: solid;
+  border-color: rgba(43, 43, 43, 0.12);
+}
+.youtube-btn {
+  width: 100%;
+  height: 100%;
+  font-family: "Orbitron" sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: rgba(43, 43, 43, 1);
+  padding: 12px, 16px, 12px, 16px;
+  text-transform: uppercase;
+  background: transparent;
+  border: transparent;
+}
+.FaYoutube {
+  color: rgba(255, 0, 0, 1);
+  width: 20px;
+  height: 16px;
+}
+.titre-sticky {
+  width: 1440px;
+  height: 656px;
+  padding: 367.9px, 108px, 0.1px, 108px;
+  margin-top: -185px;
+}
+.titre-sticky h1 {
+  color: rgba(43, 43, 43, 1);
+  font-family: Orbitron;
+  font-size: 80px;
+  font-weight: 800;
+  line-height: 96px;
+  letter-spacing: 0em;
+  text-align: center;
+  width: 1224px;
+  height: 288px;
+  margin-top: 367.9px;
+  margin-left: 108px;
+  text-transform: uppercase;
+}
+

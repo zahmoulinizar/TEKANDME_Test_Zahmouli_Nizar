@@ -1,0 +1,107 @@
+.etl{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  position: relative;
+  width: 112px ;
+height: 24px ;
+padding: 4px, 8px, 4px, 8px ;
+rotate: -8deg ;
+background: rgba(252, 252, 252, 0.12);
+z-index: 0;
+}
+.etoile {
+  width: 16px ;
+height: 16px;
+}
+.avis-client {
+  background: linear-gradient(
+      104.31deg,
+      #2b2b2b 19.79%,
+      rgba(43, 43, 43, 0) 108.61%
+    ),
+    url("../../assets/images/IMG.png");
+  width: 1440px;
+  height: 728px;
+  padding-top: 180px;
+  margin-top: 150px;
+}
+.avis-clt {
+  width: 601px;
+  height: 240px;
+  margin-left: 107px;
+}
+.avis-clt h2 {
+  color: rgba(252, 252, 252, 1);
+  font-family: "Orbitron" sans-serif;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 80px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: uppercase;
+  margin-top: 50px;
+}
+.client-btn {
+  width: 200px;
+  height: 40px;
+  border: 1px, 1px, 3px, 1px;
+  background: linear-gradient(0deg, #f4c02f, #f4c02f),
+    linear-gradient(0deg, rgba(43, 43, 43, 0.12), rgba(43, 43, 43, 0.12));
+  border-width: 1px, 1px, 3px, 1px;
+  border-style: solid;
+  border-color: rgba(43, 43, 43, 0.12);
+  margin-left: 0;
+  text-transform: uppercase;
+  font-family: "Orbitron" sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(43, 43, 43, 1);
+}
+.pub-insta {
+  position: absolute;
+  width: 392px;
+  height: 936px;
+  margin-top: -514px;
+  margin-left: 940px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.card {
+  background: rgba(252, 252, 252, 1);
+  width: 100%;
+  height: 350px;
+  padding: 24px;
+}
+.card-img-top {
+  width: 40px;
+  height: 40px;
+}
+.card-title {
+  width: 344px;
+  height: 24px;
+  font-family: "Orbitron" sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: uppercase;
+  color: rgba(23, 28, 36, 1);
+}
+.card-text {
+  width: 344px;
+  height: auto;
+  opacity: 0.7px;
+  font-family: Manrope;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: rgba(23, 28, 36, 1);
+}

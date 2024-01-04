@@ -1,0 +1,157 @@
+.section {
+  width: 1440px;
+  background: linear-gradient(0deg, #FCFCFC, #FCFCFC),
+  linear-gradient(0deg, rgba(43, 43, 43, 0.12), rgba(43, 43, 43, 0.12));
+  padding-top: 80px;
+}
+.contenu {
+  display: flex;
+  width: 1224px;
+  height: 504px;
+}
+.contenu img {
+  width: 504px;
+  height: 504px;
+}
+.contenu .text-contenu {
+  display: flex;
+  flex-direction: column;
+  width: 592px;
+  height: 376px;
+}
+.contenu .text-contenu h3 {
+ font-family: 'Oribtron' sans-serif;
+ font-weight: 700; 
+font-size: 40px;
+line-height: 56px;
+letter-spacing: 0em;
+text-align: left;
+color: #2B2B2B;
+}
+.contenu .text-contenu p {
+font-family: Manrope;
+font-size: 18px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+color: rgba(43, 43, 43, 0.7);
+}
+.section-btn{
+width: 172px;
+height: 48px;
+padding: 12px, 16px, 12px, 16px ;
+border: 1px, 1px, 3px, 1px;
+gap: 8px ;
+border-width: 1px, 1px, 3px, 1px;
+border-style: solid;
+border-color: rgba(43, 43, 43, 0.12);
+background: rgba(43, 43, 43, 0.12);
+text-transform: uppercase;
+color: rgba(43, 43, 43, 1);
+font-family: 'Orbitron' sans-serif;
+font-size: 14px;
+font-weight: 800;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+}
+.section-monaco {
+  display: flex;
+  flex-direction: column;
+  width: 1224px;
+  height: 600px;
+  margin-top: 80px;
+  padding-top: 100px;
+  background: linear-gradient(82.17deg, #2B2B2B 55.06%, rgba(43, 43, 43, 0) 208.47%) , 
+  url('../../assets/images/image\ \(24\).png');
+  background-size: cover;
+}
+.section-monaco-contenu {
+width: 624px ;
+height: 464.25px ;
+margin-left: 80px;
+}
+.section-monaco-contenu h3 {
+width: 624px ;
+height: 112px ;
+font-family: 'Orbitron' sans-serif;
+font-size: 40px;
+font-weight: 700;
+line-height: 56px;
+letter-spacing: 0em;
+text-align: left;
+color:#FCFCFC;
+text-transform: uppercase;
+}
+.section-monaco-contenu h3>span {
+color:#F4C02F;
+}
+.section-monaco-contenu p{
+font-family: Manrope;
+font-size: 18px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: left;
+width: 624px ;
+height: 192px;
+color: rgba(252, 252, 252, 0.7);
+}
+.section-monaco-contenu img {
+  width: 288px ;
+height: 447px ;
+margin-left: 702px ;
+margin-top: -290px;
+
+}
+.btn-monaco {
+  width: 200px;
+height: 40px;
+border: 1px, 1px, 3px, 1px ;
+background: linear-gradient(0deg, #F4C02F, #F4C02F),
+linear-gradient(0deg, rgba(43, 43, 43, 0.12), rgba(43, 43, 43, 0.12));
+border-width: 1px, 1px, 3px, 1px;
+border-style: solid;
+border-color: rgba(43, 43, 43, 0.12);
+margin-left: 0;
+text-transform: uppercase;
+font-family: 'Orbitron' sans-serif;
+font-size: 14px;
+font-weight: 800;
+line-height: 24px;
+letter-spacing: 0em;
+text-align: center;
+color: rgba(43, 43, 43, 1);
+}
+.stats{
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+  width:1224px ;
+height: 136px ;
+margin-top: 50px;
+
+}
+.stat {
+  padding: 15px;
+}
+.stat h2 {
+font-family:'Orbitron' sans-serif;
+font-size: 64px;
+font-weight: 700;
+line-height: 80px;
+letter-spacing: 0em;
+text-align: center;
+}
+.stat p {
+font-family: Manrope;
+font-size: 18px;
+font-weight: 500;
+line-height: 32px;
+letter-spacing: 0em;
+text-align: center;
+color: rgba(43, 43, 43, .7);
+height: 32px;
+opacity: 0.7px;
+}

@@ -1,0 +1,186 @@
+section .devis {
+  width: 1224px;
+  height: 504px;
+  margin-top: 124px;
+  padding-top: 180px;
+  background: linear-gradient(
+      94.16deg,
+      #2b2b2b 38.03%,
+      rgba(43, 43, 43, 0) 107.1%
+    ),
+    url("../../assets/images/image\ \(30\).png");
+  background-size: cover;
+}
+.devis h3 {
+  width: 613px;
+  height: 56px;
+  margin-left: 80px;
+  color: rgba(252, 252, 252, 1);
+  font-family: "Orbitron" sans-serif;
+  font-size: 35px;
+  font-weight: 700;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: uppercase;
+}
+.devis p {
+  color: rgba(252, 252, 252, 0.7);
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 624px;
+  height: 96px;
+  margin-top: 24px;
+  margin-left: 80px;
+}
+.devis-btn {
+  border-width: 1px, 1px, 3px, 1px;
+  border-style: solid;
+  border-color: rgba(43, 43, 43, 0.12);
+  background: linear-gradient(0deg, #f4c02f, #f4c02f),
+    linear-gradient(0deg, rgba(43, 43, 43, 0.12), rgba(43, 43, 43, 0.12));
+  width: 275px;
+  height: 48px;
+  margin-top: 32px;
+  margin-left: 80px;
+  padding: 12px, 16px, 12px, 16px;
+  border: 1px, 1px, 3px, 1px;
+  font-family: "Orbitron" sans-serif;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 24px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(43, 43, 43, 1);
+  text-transform: uppercase;
+}
+.FAQ-section {
+  display: flex;
+  justify-content: space-around;
+}
+.FAQ-section-image {
+  width: 496px;
+  height: 808px;
+  margin-top: 80px;
+  margin-left: 108px;
+  padding-top: 8%;
+  overflow: hidden;
+}
+.img-sticky {
+  background: url("../../assets/images/image\ \(141\).png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: sticky;
+  width: 496px;
+  height: 696px;
+  object-fit: cover;
+  background-position-y: 210%;
+}
+.img-sticky img {
+  width: 100%;
+  height: 100%;
+}
+.FAQ-section-contenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 600px;
+  height: 1184px;
+  margin-top: 120px;
+  left: 732px;
+}
+.FAQ-section-contenu h3 {
+  color: rgba(43, 43, 43, 1);
+  font-family: "Orbitron" sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0em;
+  text-align: left;
+  text-transform: uppercase;
+  width: 600px;
+  height: 168px;
+}
+.list-question {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 600px;
+  height: 872px;
+}
+.autolayaout {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 136px;
+  padding: 0px, 0px, 56px, 0px;
+  border: 0px, 0px, 1px, 0px;
+  gap: 24px;
+  border-bottom: 1px solid rgba(43, 43, 43, 0.12);
+}
+.question {
+  display: flex;
+  justify-content: space-between;
+}
+.question h6 {
+border-bottom: 1px solid rgba(43, 43, 43, 0.12) ;
+color: rgba(43, 43, 43, 0.7);
+width:600px ;
+height: 136px ;
+padding: 0px, 0px, 56px, 0px ;
+border: 0px, 0px, 1px, 0px ;
+font-family: 'Orbitron' sans-serif;
+font-size: 24px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0em;
+text-align: left;
+}
+.question span {
+  width: 40px;
+  height: 40px;
+  padding: 0px, 8px, 0px, 8px;
+  border: 2.5px solid rgba(43, 43, 43, 1);
+  color: rgba(43, 43, 43, 0.7);
+  top: 20px;
+  left: 32px;
+  border: 2.5px;
+  font-size: 24px;
+  margin: 10px;
+}
+.reponse p {
+    color: rgba(43, 43, 43, 1);
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    width: 600px;
+    height: 96px;
+    visibility: hidden;
+    
+}
+.active {
+    height: 272px;
+}
+.active p{
+visibility: visible;
+}
+.active .question h6 {
+color: rgba(43, 43, 43, 1);
+  font-family: "Orbitron" sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: 0em;
+  text-align: left;
+  width: 536px;
+  height: 100%;
+  text-transform: uppercase;
+}
